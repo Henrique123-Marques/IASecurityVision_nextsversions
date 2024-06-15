@@ -62,7 +62,7 @@ class MyTabView(customtkinter.CTkTabview):
         self.chat = customtkinter.CTkImage(Image.open('img/chat.png'), size=(70,70))
         self.chat = customtkinter.CTkButton(master=self.tab('Inicio'), text='', image=self.chat, bg_color='#161c2e', fg_color='#161c2e', width=1, command=chatbot).place(relx=0.52, rely=0.61)
 
-        self.ano = customtkinter.CTkLabel(master= self, text='2023', text_color='#27C4B7',fg_color="#161c2e", font=self.fonte).place(relx=0.5, rely=0.9, anchor=customtkinter.CENTER)
+        self.ano = customtkinter.CTkLabel(master= self, text='2024', text_color='#27C4B7',fg_color="#161c2e", font=self.fonte).place(relx=0.5, rely=0.9, anchor=customtkinter.CENTER)
 
         #Solocitacao
         self.pdf = customtkinter.CTkImage(Image.open('img/pdf.png'), size=(80, 80))
